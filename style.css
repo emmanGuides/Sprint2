@@ -1,0 +1,316 @@
+body{
+	background: rgb(68,61,44);
+	background: linear-gradient(90deg, rgba(68,61,44,1) 0%, rgba(89,53,28,1) 30%, rgba(77,34,29,1) 66%, rgba(51,44,32,1) 100%);
+	color: #000;
+	line-height: 1em;
+	scroll-behavior: smooth;
+	}
+
+h4{
+	margin-left: 90%;
+	font-family: Verdana;
+	border: 3px #f2a950 dotted;
+	border-radius: 25px;
+	text-align:center
+}
+
+a {text-decoration: none;} 
+
+.clear{
+	clear:both;
+}
+
+
+.title-intro{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Source Sans Pro;
+	width: 970px;
+	margin-left: 150px;
+	margin-top: 100px;
+	padding-top: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 3px #000;
+	border-style: dotted;
+	border-radius: 25px
+}
+
+.title-intro h2{
+	font-family: Lucida Handwriting;
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+.title-intro h1{
+	margin-left: 20px;
+}
+
+.tierlist-div{
+
+	font-size: 70px;
+	font-family: Source Sans Pro;
+	margin-top: 10px; 
+	margin-bottom: 20px;
+	float: center;	
+}
+
+.tierlist-div h3{
+	font-size: 60px;
+	font-family: Verdana;
+	background: -webkit-radial-gradient(circle, rgba(255,138,65,0.831) 0%, rgba(240,241,129,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	padding:20px;
+}
+
+.tierlist-div p{
+	color:white;	
+	font-family: Lucida Handwriting;
+	font-size: 18px;
+	margin-top: -20px;
+}
+
+#tierlist_image{
+	transition: 200ms;
+	width:800px;
+	border: 5px #BD6B6B;
+	border-style: outset;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#tierlist_image:hover{
+	transform: scale(1.2);
+}
+
+.definitions{
+	width: 60%;
+	margin-left: 150px;
+	font-size: 21px;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+
+.definitions p{
+	line-height: 23px;
+	color: white;
+	margin-top: -20px;
+	margin-left: 50px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Source Sans Pro;
+	width: 50%;
+	border-radius: 10px;
+	
+}
+
+.definitions h1{
+	color: #070a03;
+	margin-left: -20px;
+	padding-left: 39px;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 5px;
+	width: 130%;
+	text-shadow: -1px -1px 0 #ccc, 1px -1px 0 #ccc, -1px 1px 0 #ccc, 1px 1px 0 #ccc;
+	background: rgb(255,138,65);
+	background: radial-gradient(circle, rgba(255,138,65,0.831) 0%, rgba(240,241,129,1) 100%);
+}
+
+#chopsticks{
+	float: right;
+	margin-right: 150px;
+	margin-top: 100px;
+	margin-left: 10px;
+	border-radius: 10px;
+	width:37%;
+	transition: 350ms;
+}
+#chopsticks:hover{
+	width: 39%;
+}
+
+.aboutme{
+	color: #f2e246;
+  	padding: 10px;
+  	font-size: 10px;
+ 	border-radius: 25px;
+	background-image: url("images/food-pattern2.gif"); 
+	background-size: 100%;
+	position: fixed;
+	right: 30px;
+	bottom: 15px;
+	transition: 1s;
+}
+.aboutme a{
+	color: #7c380e;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.aboutme:hover{
+	padding: 20px;
+	border-radius: 50px;
+	color: #f2e246;
+	bottom: 30px;
+}
+
+.inputContainer {
+	height: 600px;
+}
+
+.input{
+
+	color: #326957;
+	float:center;
+	background-size: 50%;
+	padding-bottom: 50px;
+	padding-top: 5px;
+	
+}
+
+.input h3{
+	font-size: 50px;
+	font-family: Verdana;
+	background: -webkit-radial-gradient(circle, rgba(255,138,65,0.831) 0%, rgba(240,241,129,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	padding:27px;
+}
+
+
+#myInput { 
+	float: center;
+	transition: width 1s;
+	background: #fff;
+  	background-image: url('images/resizeCatto3.png'); 
+  	background-position: 10px 12px; 
+  	background-repeat: no-repeat; 
+  	width: 10%; 
+  	font-size: 16px;
+  	padding: 12px 20px 12px 40px; 
+  	border: 1px solid yellow; 
+  	border-radius: 20px;
+  	margin-bottom: 12px;
+  	margin-top: -100px;
+  	margin-left: 420px;
+}
+
+
+#myInput:hover{
+	width:31%;
+}
+
+#myUL {
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+	margin-left: 450px;
+	width: 30%;
+  	border: 1px dotted #BDBD6B;
+  	margin-top: -1px; 
+  	background-color: #BDBD6B; 
+  	padding: 12px; 
+  	text-decoration: none; 
+  	font-size: 18px; 
+  	color: #E5E7E9; 
+  	display: block; 
+  	transition: 250ms;
+  	border-radius: 5px;
+}
+
+#myUL li a{
+  background-color: #d3d96b; 
+  color: #000;
+}
+
+#myUL li a:hover{
+	transform: scale(1.1);
+}
+
+
+.progress-container {
+	position: fixed;
+  	bottom: 0;
+  	width: 110%;
+ 	height: 8px;
+  	background: #b6b93d;
+  	margin-left: -10px;
+}
+
+.progress-bar {
+  	height: 10px;
+  	background: rgb(222,170,39);
+	background: linear-gradient(90deg, rgba(222,170,39,1) 0%, rgba(226,81,31,1) 30%, rgba(227,64,45,1) 66%, 
+		rgba(235,154,15,1) 100%);
+	width: 100%;
+  	margin-left: -10px;
+}
+
+.parallax {
+  	background-image: url("images/min_sushi.jpg");
+ 	min-height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:-10px -10px;
+	background-size: 100%;
+}
+
+.parallax1 {
+  	background-image: url("images/background2.jpg");
+ 	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	line-height: 3em;
+	margin:-10px -10px;
+}
+
+.parallax2 {
+  	background-image: url("images/sushiHD.jpg");
+ 	min-height: 100px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:-10px -10px;
+}
+
+.parallax3 {
+  	background-image: url("images/rustic_1.jfif");
+ 	min-height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:-10px -10px;
+}
+
+
+.text {
+	background: rgb(182,185,61);
+	background: radial-gradient(circle, rgba(238,203,60,1) 0%, rgba(230,224,50,1) 26%, rgba(246,224,43,1) 50%, 
+		rgba(238,125,60,0.9864320728291317) 100%);
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	-webkit-text-stroke: .3px black;
+ 	height: 400px; 
+	font-size: 110px; 
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	font-stretch: expanded;
+	margin: 0 auto;
+	padding: 80px;
+	width: 50%;
+	text-align: center; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	line-height: 1em;
+}
+
